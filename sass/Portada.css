@@ -1,0 +1,176 @@
+.Contenedor {
+  display: -ms-grid;
+  display: grid;
+}
+
+.Fondo {
+  background-color: #67D2F9;
+}
+
+.ContenedorCabecera {
+  display: -ms-grid;
+  display: grid;
+  color: black;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  height: 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0089FF;
+  justify-items: center;
+  font-size: 2em;
+  font-family: Helvetica, sans-serif;
+  border: #0018A3 5px inset;
+  border-bottom: #0089FF;
+  -webkit-box-shadow: 1px black;
+          box-shadow: 1px black;
+}
+
+.menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (20%)[5];
+      grid-template-columns: repeat(5, 20%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+  border: #0018A3 5px inset;
+  border-top: #0089FF;
+  cursor: pointer;
+  height: 2em;
+}
+
+.color:hover {
+  color: yellow;
+}
+
+.color img {
+  width: 2em;
+}
+
+.video {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1;
+      grid-template-columns: 1;
+  width: 5em;
+  height: 2em;
+  margin-left: 7em;
+}
+
+.h1 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  margin: 1em;
+}
+
+.descripcion {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (50%)[2];
+      grid-template-columns: repeat(2, 50%);
+}
+
+.descripcion2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+}
+
+.descripcion2 p {
+  margin-top: 8em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.descripcion2 img {
+  width: 45em;
+  height: 30em;
+}
+
+.segundoFondo {
+  border: #0018A3 5px inset;
+  background-color: #0089FF;
+}
+
+.tres {
+  gap: 3em;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (28%)[3];
+      grid-template-columns: repeat(3, 28%);
+}
+
+.cuadros {
+  height: 31em;
+  border: #0018A3 5px inset;
+  background-color: #0089FF;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cuadros img {
+  width: 25em;
+}
+
+.footer {
+  background-color: #0089FF;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (33%)[3];
+      grid-template-columns: repeat(3, 33%);
+  font-family: Helvetica, sans-serif;
+  border: #0018A3 5px inset;
+  -webkit-box-shadow: 1px black;
+          box-shadow: 1px black;
+}
+
+.junta {
+  width: 10em;
+  padding: 1em;
+  border-radius: 2em;
+}
+
+.mar {
+  padding: 1em;
+  width: 6em;
+}
+
+.RedesSociales img {
+  width: 5em;
+  border-radius: 2em;
+  margin: 1em;
+}
+/*# sourceMappingURL=Portada.css.map */
