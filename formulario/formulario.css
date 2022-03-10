@@ -1,0 +1,167 @@
+form {
+  /* Centrar el formulario en la página */
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+
+  /* Esquema del formulario */
+  padding: 1em;
+  border: 0.6em solid #496169;
+  border-radius: 1em;
+  justify-content: center;
+  margin-top: 7em;
+  background-color: #a3a8ad;
+  margin-left: 25%;
+  opacity: 0.9;
+}
+
+.junta {
+  justify-content: center;
+  width: 9em;
+  border-radius: 2em;
+  margin-top: 20em;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.inicio {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.inicio1 {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-left: 26%;
+}
+
+.reset {
+  text-align: center;
+}
+.cuerpo {
+  grid-template-columns: repeat(2, 50%);
+  background-image: url("../recursos/formulario.jpg");
+  background-size: 100%;
+  max-width: 1910px;
+  background-repeat: no-repeat;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+}
+
+input,
+textarea {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+  font: 1em sans-serif;
+  background-color: #e5e6e8;
+  /* Tamaño uniforme del campo de texto */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #000;
+}
+
+textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align: top;
+
+  /* Proporcionar espacio para escribir texto */
+  height: 5em;
+}
+
+.button {
+  /* Alinear los botones con los campos de texto */
+  padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+}
+
+button {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+  margin-left: 0.5em;
+}
+
+.btn1 {
+  background-color: E5E6E8;
+  color: black;
+  border: 2px solid #008cba;
+  height: 2em;
+  width: 10em;
+  border-radius: 2em;
+}
+.btn1:hover {
+  background-color: #97d848;
+  color: black;
+}
+
+.logo {
+  float: left;
+}
+
+.inicio2 {
+  margin-right: 16%;
+}
+
+@media screen and (max-width: 700px) {
+  * {
+    max-width: 700px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .cuerpo {
+    grid-template-columns: repeat(2, 50%);
+    background-image: url("../recursos/formulario.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+  }
+  .inicio1 {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width: 540px) {
+  * {
+    max-width: 540px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .cuerpo {
+    grid-template-columns: repeat(2, 50%);
+    background-image: url("../recursos/formulario.jpg");
+    background-size: 100%;
+    background-repeat: repeat;
+  }
+  .inicio1 {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 0%;
+  }
+}
